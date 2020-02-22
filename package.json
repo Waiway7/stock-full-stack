@@ -8,6 +8,7 @@
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "4.2.2",
     "babel-loader": "^8.0.6",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -37,5 +38,8 @@
   "bugs": {
     "url": "https://github.com/Waiway7/stock-full-stack/issues"
   },
-  "homepage": "https://github.com/Waiway7/stock-full-stack#readme"
+  "homepage": "https://github.com/Waiway7/stock-full-stack#readme",
+  "devDependencies": {
+    "webpack-dev-server": "^3.10.3"
+  }
 }
